@@ -1,0 +1,13 @@
+PODS:
+  - Aspects (1.4.1)
+  - GPUImage (0.1.7)
+
+DEPENDENCIES:
+  - Aspects
+  - GPUImage
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+
+COCOAPODS: 0.39.0

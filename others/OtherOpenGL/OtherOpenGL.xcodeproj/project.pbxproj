@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A51E71B1C2B3C2B00AF288D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51E71A1C2B3C2B00AF288D /* main.m */; };
+		8A51E71E1C2B3C2B00AF288D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51E71D1C2B3C2B00AF288D /* AppDelegate.m */; };
+		8A51E7211C2B3C2B00AF288D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51E7201C2B3C2B00AF288D /* ViewController.m */; };
+		8A51E7241C2B3C2B00AF288D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A51E7221C2B3C2B00AF288D /* Main.storyboard */; };
+		8A51E7261C2B3C2B00AF288D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A51E7251C2B3C2B00AF288D /* Assets.xcassets */; };
+		8A51E7291C2B3C2B00AF288D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A51E7271C2B3C2B00AF288D /* LaunchScreen.storyboard */; };
+		8A51E7321C2B4D3F00AF288D /* CTViewControllerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51E7311C2B4D3F00AF288D /* CTViewControllerIntercepter.m */; };
+		8A809E031C2B52DE004A6027 /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A809E021C2B52DE004A6027 /* demo.jpg */; };
+		8A809E071C2B55F1004A6027 /* GPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A809E061C2B55F1004A6027 /* GPUImageViewController.m */; };
+		8A809E091C2B6D70004A6027 /* CustomFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 8A809E081C2B6D70004A6027 /* CustomFilter.fsh */; };
+		C1CA7A994DA70E5F1130548A /* libPods-OtherOpenGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7142ABBFF920CD814E233431 /* libPods-OtherOpenGL.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B25FCF9B5CE5460E1996AD6 /* Pods-OtherOpenGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherOpenGL.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtherOpenGL/Pods-OtherOpenGL.release.xcconfig"; sourceTree = "<group>"; };
+		7142ABBFF920CD814E233431 /* libPods-OtherOpenGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OtherOpenGL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A51E7161C2B3C2B00AF288D /* OtherOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtherOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A51E71A1C2B3C2B00AF288D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A51E71C1C2B3C2B00AF288D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A51E71D1C2B3C2B00AF288D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A51E71F1C2B3C2B00AF288D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A51E7201C2B3C2B00AF288D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A51E7231C2B3C2B00AF288D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A51E7251C2B3C2B00AF288D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A51E7281C2B3C2B00AF288D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A51E72A1C2B3C2B00AF288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A51E7301C2B4D3F00AF288D /* CTViewControllerIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTViewControllerIntercepter.h; sourceTree = "<group>"; };
+		8A51E7311C2B4D3F00AF288D /* CTViewControllerIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewControllerIntercepter.m; sourceTree = "<group>"; };
+		8A809E021C2B52DE004A6027 /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+		8A809E051C2B55F1004A6027 /* GPUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController.h; sourceTree = "<group>"; };
+		8A809E061C2B55F1004A6027 /* GPUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageViewController.m; sourceTree = "<group>"; };
+		8A809E081C2B6D70004A6027 /* CustomFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CustomFilter.fsh; sourceTree = "<group>"; };
+		B8F98B5D978272E1044D7DED /* Pods-OtherOpenGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherOpenGL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtherOpenGL/Pods-OtherOpenGL.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A51E7131C2B3C2B00AF288D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CA7A994DA70E5F1130548A /* libPods-OtherOpenGL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7598129AE4CE9F0DE0E47F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7142ABBFF920CD814E233431 /* libPods-OtherOpenGL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A51E70D1C2B3C2B00AF288D = {
+			isa = PBXGroup;
+			children = (
+				8A51E7181C2B3C2B00AF288D /* OtherOpenGL */,
+				8A51E7171C2B3C2B00AF288D /* Products */,
+				AB5E8EB07A5D461D862C05E1 /* Pods */,
+				7598129AE4CE9F0DE0E47F44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A51E7171C2B3C2B00AF288D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A51E7161C2B3C2B00AF288D /* OtherOpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A51E7181C2B3C2B00AF288D /* OtherOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				8A809E041C2B55B9004A6027 /* GPUImage */,
+				8A809E021C2B52DE004A6027 /* demo.jpg */,
+				8A51E7301C2B4D3F00AF288D /* CTViewControllerIntercepter.h */,
+				8A51E7311C2B4D3F00AF288D /* CTViewControllerIntercepter.m */,
+				8A51E71C1C2B3C2B00AF288D /* AppDelegate.h */,
+				8A51E71D1C2B3C2B00AF288D /* AppDelegate.m */,
+				8A51E71F1C2B3C2B00AF288D /* ViewController.h */,
+				8A51E7201C2B3C2B00AF288D /* ViewController.m */,
+				8A51E7221C2B3C2B00AF288D /* Main.storyboard */,
+				8A51E7251C2B3C2B00AF288D /* Assets.xcassets */,
+				8A51E7271C2B3C2B00AF288D /* LaunchScreen.storyboard */,
+				8A51E72A1C2B3C2B00AF288D /* Info.plist */,
+				8A51E7191C2B3C2B00AF288D /* Supporting Files */,
+			);
+			path = OtherOpenGL;
+			sourceTree = "<group>";
+		};
+		8A51E7191C2B3C2B00AF288D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A51E71A1C2B3C2B00AF288D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A809E041C2B55B9004A6027 /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				8A809E081C2B6D70004A6027 /* CustomFilter.fsh */,
+				8A809E051C2B55F1004A6027 /* GPUImageViewController.h */,
+				8A809E061C2B55F1004A6027 /* GPUImageViewController.m */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		AB5E8EB07A5D461D862C05E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8F98B5D978272E1044D7DED /* Pods-OtherOpenGL.debug.xcconfig */,
+				3B25FCF9B5CE5460E1996AD6 /* Pods-OtherOpenGL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A51E7151C2B3C2B00AF288D /* OtherOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A51E72D1C2B3C2B00AF288D /* Build configuration list for PBXNativeTarget "OtherOpenGL" */;
+			buildPhases = (
+				E5DF07EC1D6E4E45992E78F8 /* Check Pods Manifest.lock */,
+				8A51E7121C2B3C2B00AF288D /* Sources */,
+				8A51E7131C2B3C2B00AF288D /* Frameworks */,
+				8A51E7141C2B3C2B00AF288D /* Resources */,
+				8518139E027D4C84E213CC6F /* Embed Pods Frameworks */,
+				3D5013A345C1212F25F404DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtherOpenGL;
+			productName = OtherOpenGL;
+			productReference = 8A51E7161C2B3C2B00AF288D /* OtherOpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A51E70E1C2B3C2B00AF288D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hourunjing;
+				TargetAttributes = {
+					8A51E7151C2B3C2B00AF288D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YSEKA5262R;
+					};
+				};
+			};
+			buildConfigurationList = 8A51E7111C2B3C2B00AF288D /* Build configuration list for PBXProject "OtherOpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A51E70D1C2B3C2B00AF288D;
+			productRefGroup = 8A51E7171C2B3C2B00AF288D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A51E7151C2B3C2B00AF288D /* OtherOpenGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A51E7141C2B3C2B00AF288D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A809E031C2B52DE004A6027 /* demo.jpg in Resources */,
+				8A51E7291C2B3C2B00AF288D /* LaunchScreen.storyboard in Resources */,
+				8A51E7261C2B3C2B00AF288D /* Assets.xcassets in Resources */,
+				8A51E7241C2B3C2B00AF288D /* Main.storyboard in Resources */,
+				8A809E091C2B6D70004A6027 /* CustomFilter.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D5013A345C1212F25F404DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtherOpenGL/Pods-OtherOpenGL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8518139E027D4C84E213CC6F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OtherOpenGL/Pods-OtherOpenGL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5DF07EC1D6E4E45992E78F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A51E7121C2B3C2B00AF288D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A51E7211C2B3C2B00AF288D /* ViewController.m in Sources */,
+				8A51E71E1C2B3C2B00AF288D /* AppDelegate.m in Sources */,
+				8A51E71B1C2B3C2B00AF288D /* main.m in Sources */,
+				8A809E071C2B55F1004A6027 /* GPUImageViewController.m in Sources */,
+				8A51E7321C2B4D3F00AF288D /* CTViewControllerIntercepter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A51E7221C2B3C2B00AF288D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A51E7231C2B3C2B00AF288D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A51E7271C2B3C2B00AF288D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A51E7281C2B3C2B00AF288D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A51E72B1C2B3C2B00AF288D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A51E72C1C2B3C2B00AF288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A51E72E1C2B3C2B00AF288D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F98B5D978272E1044D7DED /* Pods-OtherOpenGL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OtherOpenGL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbzshome.OtherOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A51E72F1C2B3C2B00AF288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B25FCF9B5CE5460E1996AD6 /* Pods-OtherOpenGL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OtherOpenGL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbzshome.OtherOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A51E7111C2B3C2B00AF288D /* Build configuration list for PBXProject "OtherOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A51E72B1C2B3C2B00AF288D /* Debug */,
+				8A51E72C1C2B3C2B00AF288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A51E72D1C2B3C2B00AF288D /* Build configuration list for PBXNativeTarget "OtherOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A51E72E1C2B3C2B00AF288D /* Debug */,
+				8A51E72F1C2B3C2B00AF288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A51E70E1C2B3C2B00AF288D /* Project object */;
+}
